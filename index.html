@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="assets/logo.png" class="cabecalho__imagem" alt="Logo do AluraGeek">
+        <h1 class="titulo">AluraGeek</h1>
+    </header>
+
+    <main class="principal">
+        <section class="container__produtos">
+            <h2 class="produtos__titulo">Meus Produtos</h2>
+            <div id="cards">
+                <div class="produto">
+                    <img src="assets/stormtrooper.png" alt="Produto StormTrooper">
+                    <p>StormTrooper</p>
+                    <p>R$100.00</p>
+                </div>
+                <div class="produto">
+                    <img src="assets/gameboy.png" alt="Produto Gameboy">
+                    <p>Gameboy</p>
+                    <p>R$60.00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container__form">
+            <h2 class="form__titulo">Adicionar produto</h2>
+            <form id="form" class="form">
+                <input type="text" id="name" placeholder="Nome..." class="input__nome">
+                <input type="text" id="price" placeholder="Valor..." class="input__valor">
+                <input type="text" id="imageUrl" placeholder="Imagem..." class="input__imagem">
+                <div class="botoes">
+                    <button class="botao__adicionar" type="submit">Adicionar</button>
+                    <button class="botao__cancelar" type="button" id="cancelar">Cancelar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__div">
+            <img src="assets/logo.png" class="rodape__logo" alt="logo">
+            <p>AluraGeek</p>
+        </div>
+        <p>Desenvolvido por Miuxa 2024</p>
+    </footer>
+    <script type="module" src="js/main.js" defer></script>
+    <script type="module" src="js/criar.js" defer></script>
+</body>
+</html>

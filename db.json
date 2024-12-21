@@ -1,0 +1,26 @@
+{
+  "produto": [
+    {
+      "name": "Stormtrooper",
+      "imageUrl": "https://img.sugotoys.com.au/images/20180620230944/otml0fgGRdeNpLACrZdY_ANOTFAHELMET001-Star-Wars-FO-Stormtrooper-Helmet.jpg",
+      "price": "R$100",
+      "id": "1",
+      "alt": "Produto Stormtrooper",
+      "section": "Star Wars"
+    },
+    {
+      "name": "Gameboy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/1200px-Game-Boy-FL.jpg",
+      "price": "R$60",
+      "id": "2",
+      "alt": "Produto Gameboy",
+      "section": "Retro"
+    },
+    {
+      "id": "400f",
+      "name": "afaf",
+      "price": "faafa",
+      "imageUrl": "https://img.sugotoys.com.au/images/20180620230944/otml0fgGRdeNpLACrZdY_ANOTFAHELMET001-Star-Wars-FO-Stormtrooper-Helmet.jpg"
+    }
+  ]
+}
